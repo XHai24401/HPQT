@@ -10,11 +10,14 @@
 
 <body>
     <form>
-        <label for="username">Tên đăng nhập1:</label>
+        <label for="username">Tên đăng nhập:</label>
         <input type="text" id="txtUsername" name="txtUsername" required>
-        <label for="matkhau">Mật Khẩu1:</label>
-        <input type="text" id="txtmatkhau" name="txtmatkhau" required>
+        <label for="matkhau">Mật khẩu:</label>
+        <input type="password" id="txtPassword" name="txtPassword" required>
 
+        <div>
+            <button type="button" id="btnLogin" onclick="login()">Login</button>
+        </div>
     </form>
 </body>
 
